@@ -1,4 +1,4 @@
-function imprSelec(historial){
+function imprSelect(historial){
   var ficha=document.getElementById(historial);
   var ventimp=window.open(' ','popimpr');
   ventimp.document.write(ficha.innerHTML);
